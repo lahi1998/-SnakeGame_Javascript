@@ -10,7 +10,7 @@ const Gameboard = document.getElementById('Game-board')
 function main(CurrentTime) {
     if (gameover) {
        if (confirm('You lost. Press ok to play again.')) {
-         window.location = 'https://lahi1998.github.io/SnakeGame_Javascript/'
+         window.location = '/'
        }
        return
     }
