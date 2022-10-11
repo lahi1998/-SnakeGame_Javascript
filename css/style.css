@@ -1,0 +1,104 @@
+body {
+    min-width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.left {
+    width: 10%;
+}
+.middle {
+    width: auto;
+}
+.right {
+    width: 10%;
+}
+
+/* controls mobile */
+
+#Mobil {
+    display: block;
+    position: absolute;
+    right: 15vw;
+    bottom: 42vh;
+    color: white;
+    background-color: slategray;
+    border-radius: 10%;
+    font-size: 1.1vw;
+}
+
+.Controller {
+    display: none;
+    position: absolute;
+    margin-top: 10vh;
+    right: 10%;
+    height: auto;
+    width: auto;
+    padding: 15px;
+    background-color: rgba(88, 86, 86, 0.637);
+    border-radius: 20%;
+}
+
+.btn:hover{
+    background-color: rgba(134, 133, 133, 0.637);
+}
+
+.btn {
+    width: auto;
+    color: white;
+    font-size: 80%;
+    background-color: rgba(88, 86, 86, 0.637);
+}
+
+.btup {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.btdown {
+    margin-left: 20%;
+    margin-right: 30%;
+}
+
+/* game */
+
+#Game-board {
+    background-image: url(https://lh3.googleusercontent.com/g4wu7EbVw1tfYsbko44dnj-3tUf-4wWQyaiWSmVot7JrC1aSkRxaEAJuUHH1T6jM_wNT0OlfoySXdekQqyIexIheY-c1emvNmyIvCbslZwNd8Y1jTNuXeyBcOufqY4x7jqOxVuYIWg=w2400);
+    width: 100vmin;
+    height: 100vmin;
+    display: grid;
+    grid-template-rows: repeat(30, 1fr);
+    grid-template-columns: repeat(30, 1fr);
+}
+
+.Snake {
+    background-image: url(https://lh3.googleusercontent.com/icYEO-8OoVifYotng218QwBrfIU9D2yOR5Znu2IQinPkF_MhdWSM6Dx9hrolKfZ-ibXo1rUMG-_6yaewG9HkW4_XPlKEP96vATunwlZLKEcLG0LN99H-mPbmiZcfnfo4JuBxJKXCQg=s40-p-k);
+    background-size: 100%;
+}
+
+.Food1 {
+    background-image: url(https://lh3.googleusercontent.com/C1aiSCxfLeds9Zag8oTUDLtqpMoBFpL2I6QcSV5pKaFaoWfqWCWl9cpPrP-M9qP62jN8kxzCquJ19khLPBUVWNRaH9sYq2XpAssJiNG7nYU2MvWpQFeoqF3rABWlOuQ7s2KiDieh5w=s40-p-k);
+    background-size: 100%;
+}
+
+.Food2 {
+    background-image: url(https://lh3.googleusercontent.com/rS3tx8uu7KPf4jZ4_HkAqMefA6qE6gQlErSVTT2Y1YA_EMTx0F2654ay5FqmLpelLdEghBXiOgaK3g9UlXkAL9ZaqJePsrjgjGtIaqIIh3VYUYSh4xE80qYp11ygwNQGkjbuMoBiQQ=s40-p-k);
+    background-size: 100%;
+}
+
+.Food3 {
+    background-image: url(https://lh3.googleusercontent.com/EdHJN4Enr8u3CplvUpoIK9rCc4YCvnUw03Btx_vumSPlAjCDJtF9hkKHXbQlUUkLYduOncZPPOj0PRw6af1YMrSFz7CWjbjAOt6ZTnjrC_NRixrm4PiDbHHEyh1qBRGm8WU8NaW-wA=s40-p-k);
+    background-size: 100%;
+}
+
+.Food4 {
+    background-image: url(https://lh3.googleusercontent.com/6AKBbAdeArzT_KRNjnkZzNxR91p-GN1znnWS0L-AbbFQ322ApfYhwck0KDQ9Fe3xcMv2u-Uct63b_W6jJGKQxa1dgcGce4aZ9B74V8L1ljUeTk2qwzC9arf93q5cp0bF1YDO2UDjDw=s40-p-k);
+    background-size: 100%;
+}
+
+
+
